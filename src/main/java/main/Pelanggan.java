@@ -19,9 +19,9 @@ public class Pelanggan {
         this.nomorTelepon = nomorTelepon;
     }
 
-    public void displayInfo() {
-        System.out.println("Nama Pelanggan: " + nama);
-        System.out.println("Alamat: " + alamat);
-        System.out.println("Nomor Telepon: " + nomorTelepon);
+    public void display() {
+        System.out.println("Nama Pelanggan : " + nama);
+        System.out.println("Alamat         : " + alamat);
+        System.out.println("Nomor Telepon  : " + nomorTelepon);
     }
 }

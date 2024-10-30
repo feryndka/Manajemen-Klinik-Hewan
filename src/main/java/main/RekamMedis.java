@@ -21,11 +21,11 @@ public class RekamMedis {
         this.tanggal = tanggal;
     }
 
-    public void displayInfo() {
-        System.out.println("Rekam Medis:");
-        hewan.displayInfo();
-        System.out.println("Diagnosis: " + diagnosis);
-        System.out.println("Perawatan: " + perawatan);
-        System.out.println("Tanggal: " + tanggal);
+    public void display() {
+        System.out.println("=== Rekam Medis ===");
+        hewan.display();
+        System.out.println("Diagnosis   : " + diagnosis);
+        System.out.println("Perawatan   : " + perawatan);
+        System.out.println("Tanggal     : " + tanggal);
     }
 }

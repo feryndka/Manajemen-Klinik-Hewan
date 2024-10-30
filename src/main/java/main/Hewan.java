@@ -24,11 +24,11 @@ abstract class Hewan {
     public abstract String getMakanan();
     public abstract String getPerawatan();
 
-    public void displayInfo() {
-        System.out.println("Nama: " + nama);
-        System.out.println("Spesies: " + spesies);
-        System.out.println("Usia: " + usia + " tahun");
-        System.out.println("Riwayat Kesehatan: " + riwayatKesehatan);
+    public void display() {
+        System.out.println("Nama hewan  : " + nama);
+        System.out.println("Spesies     : " + spesies);
+        System.out.println("Usia        : " + usia + " tahun");
+        System.out.println("Riwayat Kesehatan : " + riwayatKesehatan);
     }
 }
 
@@ -60,6 +60,6 @@ class Anjing extends Hewan {
 
     @Override
     public String getPerawatan() {
-        return "Perawatan bulu, olahraga, pemeriksaan rutin kesehatan";
+        return "Perawatan bulu, pemeriksaan rutin kesehatan";
     }
 }

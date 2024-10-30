@@ -23,12 +23,12 @@ public class JanjiKonsultasi {
         this.waktu = waktu;
     }
 
-    public void displayInfo() {
-        System.out.println("Janji Konsultasi:");
-        pelanggan.displayInfo();
-        hewan.displayInfo();
-        System.out.println("Dokter: " + dokter);
-        System.out.println("Tanggal: " + tanggal);
-        System.out.println("Waktu: " + waktu);
+    public void display() {
+        System.out.println("=== Janji Konsultasi ===");
+        pelanggan.display();
+        hewan.display();
+        System.out.println("Dokter  : " + dokter);
+        System.out.println("Tanggal : " + tanggal);
+        System.out.println("Waktu   : " + waktu);
     }
 }
